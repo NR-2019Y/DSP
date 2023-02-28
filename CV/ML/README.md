@@ -1,2 +1,2 @@
 ### LR.cpp
-### SOFTMAX回归（MNIST数据集）
+SOFTMAX回归（MNIST数据集）
