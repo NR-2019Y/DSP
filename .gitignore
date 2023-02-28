@@ -1,2 +1,8 @@
 .ipynb_checkpoints
 __pycache__
+mnist/
+.vs
+*.sln
+*.props
+*.vcxproj*
+x64/
