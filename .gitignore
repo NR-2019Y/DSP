@@ -6,3 +6,7 @@ mnist/
 *.props
 *.vcxproj*
 x64/
+_test/
+/math
+*.exe
+*.obj
