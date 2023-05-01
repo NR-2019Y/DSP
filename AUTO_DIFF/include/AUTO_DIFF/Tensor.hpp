@@ -134,7 +134,7 @@ public:
 
 class TensorNodeValue :public TensorNode {
 public:
-    TensorNodeValue(std::vector<int> _shape, bool requires_grad) : TensorNode(_shape) {
+    TensorNodeValue(const std::vector<int>& _shape, bool requires_grad) : TensorNode(_shape) {
         if (requires_grad) grad.assign(data.size(), 0.0f);
     }
     TensorNodeValue(std::initializer_list<int> _shape, bool requires_grad) : TensorNode(_shape) {
